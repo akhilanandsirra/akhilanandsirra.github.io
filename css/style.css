@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 
 body{
     background: #141414;
 }
 .navbarClass{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .navbar{
@@ -22,13 +22,6 @@ body{
     color: grey;
 }
 
-.navbar .nav-item a{
-    color: white !important;
-}
-
-.navbar .nav-item a:hover{
-    color: grey !important;
-}
 
 
 
