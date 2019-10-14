@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+    background: #141414;
+}
+.navbarClass{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.navbar .navbar-brand{
+    color: white;
+}
+
+.navbar .navbar-brand:hover{
+    color: grey;
+}
+
+.navbar .nav-item a{
+    color: white !important;
+}
+
+.navbar .nav-item a:hover{
+    color: grey !important;
+}
+
+
+
