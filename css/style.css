@@ -19,9 +19,6 @@ body{
     font-weight: bold;
 }
 
-.navbar .navbar-brand:hover{
-    color: grey;
-}
 
 .navbar .nav-item a{
     color: white !important;
@@ -30,7 +27,6 @@ body{
 .navbar .nav-item:hover a{
     color: grey !important;
 }
-
 
 .navbar .nav-item a::after{
     content: "";
