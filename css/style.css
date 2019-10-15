@@ -31,9 +31,29 @@ body{
     color: grey !important;
 }
 
+
+.navbar .nav-item a::after{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: grey;
+    transition: width .3s;
+}
+
+.navbar .nav-item a:hover::after{
+   width: 100%;
+   transition: width .3s;
+}
+
 .navbar .nav-item > .nav-link.active  {
     color:grey !important;
 }
+
+.navbar .nav-item > .nav-link.active::after{
+    width: 100%;
+    transition: width .3s;
+ }
 
 
 
