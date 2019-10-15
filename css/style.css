@@ -16,10 +16,23 @@ body{
 
 .navbar .navbar-brand{
     color: white;
+    font-weight: bold;
 }
 
 .navbar .navbar-brand:hover{
     color: grey;
+}
+
+.navbar .nav-item a{
+    color: white !important;
+}
+
+.navbar .nav-item:hover a{
+    color: grey !important;
+}
+
+.navbar .nav-item > .nav-link.active  {
+    color:grey !important;
 }
 
 
