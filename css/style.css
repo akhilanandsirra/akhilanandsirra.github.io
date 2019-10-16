@@ -161,6 +161,10 @@ body{
       height: 100vh !important;
     }
 
+    .navbar .navbar-nav{
+      background-color:black ;
+    }
+
     .navbar .nav-item a::after{
         content: "";
         display: block;
