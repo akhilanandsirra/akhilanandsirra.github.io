@@ -3,8 +3,13 @@ $('.navbar-nav .nav-link').click(function () {
     $(this).addClass('active');
 })
 //preloader
-setTimeout(() => {
+/*setTimeout(() => {
     $("#status").fadeOut();
     $("#preloader").delay(500).fadeOut("slow");
-}, 1500);
+}, 1500);*/
+
+function preloader() {
+    $("#status").fadeOut();
+    $("#preloader").delay(500).fadeOut("slow");
+}
 
