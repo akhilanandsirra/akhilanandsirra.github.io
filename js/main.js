@@ -9,7 +9,9 @@ $('.navbar-nav .nav-link').click(function () {
 }, 1500);*/
 
 function preloader() {
-    $("#status").fadeOut();
-    $("#preloader").delay(500).fadeOut("slow");
+    $(window).on('load', function () {
+        $("#status").fadeOut();
+        $("#preloader").delay(500).fadeOut("slow");
+    });
 }
 
