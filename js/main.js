@@ -12,3 +12,18 @@ $(window).on('load', function () {
     $("#status").fadeOut();
     $("#preloader").delay(500).fadeOut("slow");
 });
+
+var parallax = function () {
+    $(window).stellar();
+};
+
+//navbar scroll
+$(document).scroll(function () {
+    $('.navbar').toggleClass('scrolled', $(this).
+        scrollTop() > $('.navbar').height());
+});
+
+
+$(function () {
+    parallax();
+});

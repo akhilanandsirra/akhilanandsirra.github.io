@@ -327,6 +327,10 @@ body{
   .navbar-toggler:hover {
     background: transparent !important;
   }
+
+  .navbar.scrolled{
+	background: #000 !important;
+}
   
   .navbar-toggler .icon-bar {
     height: 2px;
