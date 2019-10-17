@@ -6,5 +6,5 @@ $('.navbar-nav .nav-link').click(function () {
 setTimeout(() => {
     $("#status").fadeOut();
     $("#preloader").delay(500).fadeOut("slow");
-}, 750);
+}, 1500);
 
