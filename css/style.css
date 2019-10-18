@@ -477,7 +477,7 @@ body{
   .contentBox h2{
     font-weight: 800;
     color: #fff;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .contentBox p{
@@ -488,9 +488,38 @@ body{
 
   .contentBox .container{
     position: relative;
-    width: 85%;
   }
 
+  .contentBox .container path{
+    stroke: #fff;
+    fill: #fff;
+    stroke-dasharray:600;
+    opacity: 10;
+    animation: animate 3s cubic-bezier(0,0.23,1,.1);
+  }
+
+  @keyframes animate{
+    0%{
+      opacity: 0;
+      fill: none;
+      stroke-dashoffset:600;
+    }
+    30%{
+      opacity: 0;
+      fill: none;
+      stroke-dashoffset:600;
+    }
+
+    90%{
+      fill: rgba(255,255,255,0);
+    }
+
+    100%{
+      opacity: 10;
+      fill: rgba(255,255,255,1);
+      stroke-dashoffset:0;
+    }
+  }
 
   @media only screen and (max-width: 768px) {
     .banner{
@@ -502,12 +531,22 @@ body{
       background-size: cover;
       margin-bottom: 0;
     }
+  }
 
-    .contentBox .container{
-      position: relative;
-      width: 100%;
+  @media only screen and (max-width: 575px) {
+    .contentBox h2{
+      font-weight: 800;
+      color: #fff;
+      font-size: 1.5rem;
+    }
+  
+    .contentBox p{
+      margin-top: 2% ;
+      color: grey;
+      font-size: 1rem;
     }
   }
 
   
+
 
