@@ -488,6 +488,7 @@ body{
 
   .contentBox .container{
     position: relative;
+    width:85rem;
   }
 
   .contentBox .container path{
@@ -495,7 +496,7 @@ body{
     fill: #fff;
     stroke-dasharray:600;
     opacity: 10;
-    animation: animate 3s cubic-bezier(0,0.23,1,.1);
+    animation: animate 3s cubic-bezier(0,0.23,1,.2);
   }
 
   @keyframes animate{
@@ -544,6 +545,10 @@ body{
       margin-top: 2% ;
       color: grey;
       font-size: 1rem;
+    }
+    .contentBox .container{
+      position: relative;
+      width:20rem;
     }
   }
 
