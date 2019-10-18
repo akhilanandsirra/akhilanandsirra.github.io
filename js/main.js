@@ -25,3 +25,8 @@ var rellax = new Rellax('.rellax', {
         // callback every position change
     }
 });
+
+$('body').scrollspy({
+    target: '.navbar-collapse',
+    offset: 195
+});
