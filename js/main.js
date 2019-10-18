@@ -30,3 +30,16 @@ $('body').scrollspy({
     target: '.navbar-collapse',
     offset: 195
 });
+
+$elements = $('#text-rotator').find('div');
+$elements.hide().first().show();
+
+setInterval(function () {
+    $elements.filter(':visible').fadeOut('slow', function () {
+        $next = $(this).next();
+        if ($next.length === 0) {
+            $next = $elements.first();
+        }
+        $next.fadeIn('slow');
+    });
+}, 2000);

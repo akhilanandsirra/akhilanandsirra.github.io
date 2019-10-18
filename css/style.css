@@ -480,8 +480,8 @@ body{
     font-size: 2.5rem;
   }
 
-  .contentBox p{
-    margin-top: 2% ;
+  .contentBox h3{
+    margin-top: 2%;
     color: grey;
     font-size: 1.5rem;
   }
@@ -541,8 +541,8 @@ body{
       font-size: 1.5rem;
     }
   
-    .contentBox p{
-      margin-top: 2% ;
+    .contentBox h3{
+      margin-top: 2%;
       color: grey;
       font-size: 1rem;
     }
