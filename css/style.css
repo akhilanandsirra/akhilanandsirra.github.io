@@ -414,7 +414,6 @@ body{
   }
   
   @media only screen and (min-device-width: 992px) {
-    
     #navbarText {
       height: auto;
     }
