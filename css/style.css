@@ -494,7 +494,7 @@ body{
   .contentBox .container path{
     stroke: #fff;
     fill: #fff;
-    stroke-dasharray:600;
+    stroke-dasharray:700;
     opacity: 10;
     animation: animate 3s cubic-bezier(0,0.23,1,.2);
   }
@@ -503,12 +503,12 @@ body{
     0%{
       opacity: 0;
       fill: none;
-      stroke-dashoffset:600;
+      stroke-dashoffset:700;
     }
     30%{
       opacity: 0;
       fill: none;
-      stroke-dashoffset:600;
+      stroke-dashoffset:700;
     }
 
     90%{
