@@ -8,17 +8,6 @@ $('.navbar-nav .nav-link').click(function () {
     $("#preloader").delay(500).fadeOut("slow");
 }, 1500);*/
 
-$(window).on('scroll', function () {
-    var cur_pos = $(this).scrollTop();
-    sections.each(function () {
-        var top = $(this).offset().top - 76
-        bottom = top + $(this).outerHeight();
-        if (cur_pos >= top && cur_pos <= bottom) {
-            nav.find('a').removeClass('active');
-            nav.find('a[href="#' + $(this).attr('id') + '"]').addClass('active');
-        }
-    });
-});
 
 $(window).on('load', function () {
     $("#status").fadeOut();
