@@ -486,6 +486,12 @@ body{
     font-size: 1.5rem;
   }
 
+  .contentBox .container{
+    position: relative;
+    width: 85%;
+  }
+
+
   @media only screen and (max-width: 768px) {
     .banner{
       position: relative;
@@ -496,11 +502,12 @@ body{
       background-size: cover;
       margin-bottom: 0;
     }
+
+    .contentBox .container{
+      position: relative;
+      width: 100%;
+    }
   }
 
-  .contentBox .container{
-    position: relative;
-    width: 85%;
-  }
-
+  
 
