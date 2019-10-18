@@ -13,17 +13,14 @@ $(window).on('load', function () {
     $("#preloader").delay(500).fadeOut("slow");
 });
 
-var parallax = function () {
-    $(window).stellar();
-};
-
 //navbar scroll
 $(document).scroll(function () {
     $('.navbar').toggleClass('scrolled', $(this).
         scrollTop() > $('.navbar').height());
 });
 
-
-$(function () {
-    parallax();
+var rellax = new Rellax('.rellax', {
+    callback: function (position) {
+        // callback every position change
+    }
 });
