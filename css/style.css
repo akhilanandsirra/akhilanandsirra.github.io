@@ -474,7 +474,14 @@ body{
     font-size: 5rem;
   }
 
+  .contentBox h2{
+    font-weight: 800;
+    color: #fff;
+    font-size: 3rem;
+  }
+
   .contentBox p{
+    margin-top: 2% ;
     color: grey;
     font-size: 1.5rem;
   }
@@ -491,5 +498,9 @@ body{
     }
   }
 
+  .contentBox .container{
+    position: relative;
+    width: 85%;
+  }
 
 
