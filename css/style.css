@@ -494,6 +494,8 @@ body{
     align-items: center;
     text-align: center;
     z-index: 10;
+    -webkit-transition: all 0.75s ease-out;
+    transition: all 0.75s ease-out;
   }
 
   .contentBox h1{
@@ -532,8 +534,6 @@ body{
     0%{
       opacity: 0;
       fill: none;
-      -webkit-transition: all 0.75s ease-out;
-      transition: all 0.75s ease-out;
       stroke-dashoffset:700;
     }
     30%{
