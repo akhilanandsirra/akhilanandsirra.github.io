@@ -522,17 +522,18 @@ body{
   .contentBox .container path{
     stroke: #fff;
     fill: #fff;
-    -webkit-transition: all 0.75s ease-out;
-    transition: all 0.75s ease-out;
     stroke-dasharray:700;
     opacity: 10;
     animation: animate 3s cubic-bezier(0,0.23,1,.2);
   }
 
   @keyframes animate{
+    
     0%{
       opacity: 0;
       fill: none;
+      -webkit-transition: all 0.75s ease-out;
+      transition: all 0.75s ease-out;
       stroke-dashoffset:700;
     }
     30%{
