@@ -3,24 +3,13 @@ $('.navbar-nav .nav-link').click(function () {
     $(this).addClass('active');
 })
 //preloader
-/*setTimeout(() => {
-    $("#status").fadeOut();
-    $("#preloader").delay(500).fadeOut("slow");
-}, 1500);*/
-
 
 $(window).on('load', function () {
     $("#status").fadeOut();
     $("#preloader").delay(500).fadeOut("slow");
 });
 
-//navbar scroll
-/*$(document).scroll(function () {
-    $('.navbar').toggleClass('scrolled', $(this).
-        scrollTop() > $('.navbar').height());
-});
-*/
-
+//navigation color
 $(window).on('scroll', function () {
     var scroll = $(window).scrollTop();
 
@@ -31,6 +20,7 @@ $(window).on('scroll', function () {
     }
 });
 
+//parallax
 
 var rellax = new Rellax('.rellax', {
     callback: function (position) {
@@ -38,6 +28,7 @@ var rellax = new Rellax('.rellax', {
     }
 });
 
+//scroll function
 $('body').scrollspy({
     target: '.navbar-collapse',
     offset: 195
@@ -56,6 +47,7 @@ setInterval(function () {
     });
 }, 3000);
 
+//arrow smooth scroll
 $('a.smoth-scroll').on('click', function (e) {
     var anchor = $(this);
     $('html, body').stop().animate({
@@ -64,6 +56,7 @@ $('a.smoth-scroll').on('click', function (e) {
     e.preventDefault();
 });
 
+//home arrow
 var arrowBounce = function () {
     var arrow = $(".arrow");
     if (arrow.hasClass("lift")) {
@@ -74,3 +67,13 @@ var arrowBounce = function () {
 };
 
 setInterval(arrowBounce, 800);
+
+//href remover
+$('.nav-link').on('click', function (e) {
+    e.preventDefault();
+    const elem = this; // save it so we can use it in the animate
+
+    $('html, body').animate({
+        scrollTop: $($(elem).attr('href')).offset().top
+    }, 250);
+});
