@@ -579,10 +579,10 @@ body{
       width:22rem;
     }
   }
-
+/*about me*/
   .about{
-    margin-top: 8%;
-    margin-bottom: 4%;
+    margin-top: 12%;
+    margin-bottom: 5%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -635,6 +635,16 @@ body{
   }
 
   @media only screen and (max-width: 575px) {
+    .about{
+      margin-top: 30%;
+      margin-bottom: 5%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
     .about #aboutme h2{
       text-align:center;
       margin-top: 1%;
