@@ -55,3 +55,22 @@ setInterval(function () {
         $next.fadeIn('slow');
     });
 }, 3000);
+
+$('a.smoth-scroll').on('click', function (e) {
+    var anchor = $(this);
+    $('html, body').stop().animate({
+        scrollTop: $(anchor.attr('href')).offset().top - 50
+    }, 1000);
+    e.preventDefault();
+});
+
+var arrowBounce = function () {
+    var arrow = $(".arrow");
+    if (arrow.hasClass("lift")) {
+        arrow.removeClass("lift");
+    } else {
+        arrow.addClass("lift");
+    }
+};
+
+setInterval(arrowBounce, 800);

@@ -418,6 +418,34 @@ body{
       height: auto;
     }
   }
+/*down arrow*/
+  .fa.fa-angle-down{
+    font-size: 40px;
+  }
+  
+  .arrow {
+    color: #fff;
+    font-size: 10rem;
+    white-space: nowrap;
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    left: 0;
+    margin: auto;
+    height: 2%;
+    width: 2%;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 750ms ease-in-out;
+    -ms-transition: all 750ms ease-in-out;
+    -o-transition: all 750ms ease-in-out;
+    transition: all 750ms ease-in-out;
+    z-index: 100;
+    margin-bottom: 2%;
+  }
+  
+  .lift {
+    bottom: 64px;
+  }
 
   .banner{
     position: relative;
@@ -488,7 +516,7 @@ body{
 
   .contentBox .container{
     position: relative;
-    width:85rem;
+    width:50rem;
   }
 
   .contentBox .container path{
@@ -618,6 +646,30 @@ body{
       margin-top: 2%;
       color: grey;
       font-size: 1.25rem;
+    }
+
+    .arrow {
+      color: #fff;
+      font-size: 10rem;
+      white-space: nowrap;
+      position: absolute;
+      right: 0;
+      bottom: 50px;
+      left: 0;
+      margin: auto;
+      height: 2%;
+      width: 2%;
+      -webkit-transition: all 500ms ease-in-out;
+      -moz-transition: all 750ms ease-in-out;
+      -ms-transition: all 750ms ease-in-out;
+      -o-transition: all 750ms ease-in-out;
+      transition: all 750ms ease-in-out;
+      z-index: 100;
+      margin-bottom: 15%;
+    }
+
+    .lift {
+      bottom: 64px;
     }
   }
 
