@@ -582,6 +582,7 @@ body{
 
   .about{
     margin-top: 8%;
+    margin-bottom: 4%;
     position: relative;
     display: flex;
     justify-content: center;
