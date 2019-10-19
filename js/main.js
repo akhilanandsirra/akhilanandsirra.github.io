@@ -15,10 +15,22 @@ $(window).on('load', function () {
 });
 
 //navbar scroll
-$(document).scroll(function () {
+/*$(document).scroll(function () {
     $('.navbar').toggleClass('scrolled', $(this).
         scrollTop() > $('.navbar').height());
 });
+*/
+
+$(window).on('scroll', function () {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 50) {
+        $('.navbar').addClass('scrolled');
+    } else {
+        $('.navbar').removeClass('scrolled');
+    }
+});
+
 
 var rellax = new Rellax('.rellax', {
     callback: function (position) {
