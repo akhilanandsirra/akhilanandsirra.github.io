@@ -471,7 +471,7 @@ body{
   .contentBox h1{
     font-weight: 800;
     color: #fff;
-    font-size: 5rem;
+    font-size: 3rem;
   }
 
   .contentBox h2{
@@ -552,6 +552,85 @@ body{
     }
   }
 
-  
+  .about{
+    margin-top: 8%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 
+  .about h1{
+    font-weight: 800;
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 4%;
+  }
+
+  .team-member{
+	  margin-bottom: 50px;
+	  text-align: center;
+  }
+  
+  .team-member h4 {
+    margin-top: 2%;
+    text-align: center;
+    color: grey;
+  }
+
+  .team-member p{
+    margin-top: 1%;
+    text-align: center;
+    color: grey;
+  }
+
+	.team-member img {
+	  width: 75%;
+	  height: 75%;
+	  border: 1px solid #fff;
+  }
+
+  .about #aboutme h2{
+    margin-top: 1%;
+    color: grey;
+    font-size: 2.5rem;
+  }
+
+  .about #aboutme p{
+    margin-top: 2%;
+    color: grey;
+    font-size: 1.25rem;
+  }
+
+  .social-icons {
+    padding-left: 0px;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    display: -moz-inline-stack;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-icons li a {
+    color: white;
+    display: inline-block;
+    display: -moz-inline-stack;
+    width: 50px;
+    height: 40px;
+    box-sizing: border-box;
+    -webkit-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .social-icons li a:hover {
+    color: grey;
+  }
+  
+  .social-icons li a i {
+    font-size: 1.3em;
+  }
 

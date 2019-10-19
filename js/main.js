@@ -54,4 +54,4 @@ setInterval(function () {
         }
         $next.fadeIn('slow');
     });
-}, 2000);
+}, 3000);
