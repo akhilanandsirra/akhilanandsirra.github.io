@@ -79,7 +79,7 @@ $('.nav-link').on('click', function (e) {
     }, 250);
 });
 
-$('.about.btn.with-arrow').on('click', function (e) {
+$('.resume').on('click', function (e) {
     e.preventDefault();
     const elem = this; // save it so we can use it in the animate
 
