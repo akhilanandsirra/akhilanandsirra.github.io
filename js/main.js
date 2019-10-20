@@ -6,7 +6,8 @@ $('.navbar-nav .nav-link').click(function () {
 
 $(window).on('load', function () {
     $("#status").fadeOut();
-    $("#preloader").delay(500).fadeOut("slow");
+    $("#preloader").delay(250).fadeOut("slow");
+    $(".contentBox .container").delay(300).fadeIn("slow");
 });
 
 //navigation color
