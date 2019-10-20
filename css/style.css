@@ -517,8 +517,8 @@ body{
   .contentBox .container{
     position: relative;
     width:50rem;
-    -webkit-transition: all 0.75s ease-out;
-    transition: all 0.75s ease-out;
+    -webkit-transition: all 0.75s ease-in;
+    transition: all 0.75s ease-in;
   }
 
   .contentBox .container path{
