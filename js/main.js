@@ -7,7 +7,7 @@ $('.navbar-nav .nav-link').click(function () {
 $(window).on('load', function () {
     $("#status").fadeOut();
     $("#preloader").delay(250).fadeOut("slow");
-    $(".contentBox .container").delay(500).fadeIn(750);
+    $(".contentBox .container").delay(500).fadeIn(1000);
 });
 
 //navigation color
@@ -79,7 +79,7 @@ $('.nav-link').on('click', function (e) {
     }, 250);
 });
 
-$('.about').on('click', function (e) {
+$('.about.btn.with-arrow').on('click', function (e) {
     e.preventDefault();
     const elem = this; // save it so we can use it in the animate
 
