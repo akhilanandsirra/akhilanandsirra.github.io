@@ -73,11 +73,12 @@ setInterval(arrowBounce, 800);
 //href remover
 $('.nav-link').on('click', function (e) {
     e.preventDefault();
-    const elem = this; // save it so we can use it in the animate
+    const elem = $(this); // save it so we can use it in the animate
 
     $('html, body').animate({
-        scrollTop: $($(elem).attr('href')).offset().top
+        scrollTop: $(elem.attr('href')).offset().top
     }, 250);
+    e.preventDefault();
 });
 
 $('.resume').on('click', function (e) {
@@ -87,4 +88,5 @@ $('.resume').on('click', function (e) {
     $('html, body').animate({
         scrollTop: $($(elem).attr('href')).offset().top
     }, 250);
+    e.preventDefault();
 });
