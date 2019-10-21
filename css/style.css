@@ -529,8 +529,8 @@ body{
     animation: animate 3s cubic-bezier(0,0.23,1,.2);
   }
 
+
   @keyframes animate{
-    
     0%{
       opacity: 0;
       fill: none;
@@ -584,8 +584,8 @@ body{
   }
 /*about me*/
   .about{
+    height: 100vh;
     margin-top: 12%;
-    margin-bottom: 5%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -640,6 +640,7 @@ body{
 
   @media only screen and (max-width: 575px) {
     .about{
+      height: 100%;
       margin-top: 30%;
       margin-bottom: 5%;
       position: relative;
@@ -690,7 +691,7 @@ body{
 /*about me social media icons*/
   .social-icons {
     padding-left: 0px;
-    margin-top: 5%;
+    margin-top: 6%;
     margin-bottom: 0;
   }
   

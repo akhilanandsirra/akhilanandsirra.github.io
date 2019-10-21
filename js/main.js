@@ -35,6 +35,7 @@ $('body').scrollspy({
     offset: 195
 });
 
+//text rotator
 $elements = $('#text-rotator').find('div');
 $elements.hide().first().show();
 
