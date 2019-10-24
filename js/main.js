@@ -81,7 +81,7 @@ $('.nav-link').on('click', function (e) {
     e.preventDefault();
 });
 
-$('.resume').on('click', function (e) {
+/*$('.resume').on('click', function (e) {
     e.preventDefault();
     const elem = this; // save it so we can use it in the animate
 
@@ -89,4 +89,4 @@ $('.resume').on('click', function (e) {
         scrollTop: $($(elem).attr('href')).offset().top
     }, 250);
     e.preventDefault();
-});
+});*/
