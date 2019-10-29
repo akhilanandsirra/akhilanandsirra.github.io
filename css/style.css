@@ -454,6 +454,7 @@ body{
     background: url(/images/wallpaperfog-min_progressed.jpg) ;
     background-size: cover;
     margin-bottom: 0;
+    background-attachment: fixed;
   }
 
   .banner:before{
@@ -583,7 +584,7 @@ body{
 /*about me*/
   .about{
     height: 100vh;
-    margin-top: 12%;
+    margin-top: 4%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -639,7 +640,7 @@ body{
   @media only screen and (max-width: 575px) {
     .about{
       height: 100%;
-      margin-top: 30%;
+      margin-top: 10%;
       margin-bottom: 5%;
       position: relative;
       display: flex;
