@@ -21,6 +21,13 @@ $(window).on('scroll', function () {
     }
 });
 
+//parallax
+
+var rellax = new Rellax('.rellax', {
+    callback: function (position) {
+        // callback every position change
+    }
+});
 
 //scroll function
 $('body').scrollspy({
