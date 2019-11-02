@@ -456,7 +456,6 @@ body{
     background: url(/images/wallpaperfog-min_progressed.jpg) ;
     background-size: cover;
     margin-bottom: 0;
-    background-attachment: fixed;
   }
 
   .banner:before{
@@ -761,3 +760,4 @@ body{
 	visibility: visible;
 	opacity: 1;
 }
+
