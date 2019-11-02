@@ -562,7 +562,6 @@ body{
       background: url(/images/wallpaper_mobile_progressed.jpg) ;
       background-size: cover;
       margin-bottom: 0;
-      background-attachment: fixed;
     }
   }
 
