@@ -453,7 +453,7 @@ body{
     top: 0;
     width: 100%;
     height: 100vh;
-    background: url(/images/wallpaperfog-min_progressed.jpg) ;
+    background: url(/images/wallpaperfogOptimized.jpg) ;
     background-size: cover;
     margin-bottom: 0;
   }
@@ -559,7 +559,7 @@ body{
       top: 0;
       width: 100%;
       height: 100vh;
-      background: url(/images/wallpaper_mobile_progressed.jpg) ;
+      background: url(/images/wallpaper_mobileOptimized.jpg) ;
       background-size: cover;
       margin-bottom: 0;
     }
