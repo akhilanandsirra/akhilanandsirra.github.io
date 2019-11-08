@@ -892,6 +892,8 @@ footer{
   position: relative;
   background: #131313;
   padding: 50px 0 0;
+  margin-bottom: -40px; /* Put negative height of the footer here */
+  padding-bottom: 40px;
 }
 
 .sci{
@@ -900,8 +902,7 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: -40px; /* Put negative height of the footer here */
-  padding-bottom: 40px; 
+   
 }
 
 .sci li{
