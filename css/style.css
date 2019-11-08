@@ -13,7 +13,7 @@ html {
 body{
     background: #000;
     font-family: 'Roboto Condensed', sans-serif;
-    margin: 0 0 100px; /* bottom has to be the same as footer height */
+    margin: 0 0 140px; /* bottom has to be the same as footer height */
 }
 
 #particles-js{
