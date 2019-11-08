@@ -760,3 +760,130 @@ body{
 	opacity: 1;
 }
 
+/*Contact Me*/
+
+.contact{
+  height: 100vh;
+  background-color: black;
+  text-align: center;
+  padding: 80px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .container{
+  max-width: 800px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.contact .container h1{
+  font-weight: 800;
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 8%;
+}
+
+.contact .container .address-icons{
+  margin-top: 6%;
+  margin-bottom: 6%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .container .address-icons .icon1,.icon2,.icon3{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+
+.contact .container .address-icons p {
+  color: #888888;
+  margin-top: 5%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .container .name,.email,.message{
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid;
+  color: #888888;
+  padding: 10px 6px;
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+
+.name{
+  float: left;
+  width: 49%;
+}
+
+.email{
+  float: right;
+  width: 49%;
+}
+
+.message{
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.contact .container .msgbutton{
+  position: relative;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+  transition: 0.3s;
+  background-color: white;
+  color: #000;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  font-size: 1rem;
+  padding: 1.5% 1.5%;
+  margin-top: 4%;
+  margin-bottom: 50px;
+}
+
+.contact .container .msgbutton:hover {
+  padding-right: 45px;
+  background-color: black;
+  color: white;
+}
+
+#send i{
+  position: absolute;
+	right: 0px;
+	top: 50%;
+	margin-top: -8px;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+  transition: 0.2s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+#send:hover i{
+	color: white;
+	right: 18px;
+	visibility: visible;
+	opacity: 1;
+}
+
+@media screen and (max-width:600px){
+  .contact .container .address-icons{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+  }
+
+  .name,.email{
+    width: 100%;
+  }
+}
