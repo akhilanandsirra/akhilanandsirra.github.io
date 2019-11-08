@@ -5,16 +5,10 @@
   scroll-behavior: smooth;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
 
 body{
-  min-height: 100%;
     background: #000;
     font-family: 'Roboto Condensed', sans-serif;
-    margin: 0 0 140px; /* bottom has to be the same as footer height */
 }
 
 #particles-js{
@@ -897,19 +891,16 @@ body{
 /*footer*/
 
 footer{ 
+  position: relative;
   background: #131313;
   padding: 40px 0 0;
   margin-bottom: -40px; /* Put negative height of the footer here */
-  padding-bottom: 100px;
-  bottom: 0;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 100px;
-  width: 100%;
+  padding-bottom: 40px;
 }
 
 .sci{
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
