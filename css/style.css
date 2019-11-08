@@ -886,6 +886,10 @@ body{
   .name,.email{
     width: 100%;
   }
+
+  .footer{
+    display: none;
+  }
 }
 
 /*footer*/
@@ -927,4 +931,9 @@ footer{
   text-align: center;
 }
 
-
+@media screen and (max-width:768px){
+  footer{
+    visibility: hidden;
+    display: none;
+  }
+}
