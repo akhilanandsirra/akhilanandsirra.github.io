@@ -803,7 +803,7 @@ body{
 
 
 .contact .container .address-icons p {
-  color: hsl(0, 0%, 53%);
+  color: #777;
   margin-top: 4%;
   width: 100%;
   justify-content: center;
