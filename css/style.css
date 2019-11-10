@@ -298,7 +298,7 @@ body{
   }
 
   .navbar.scrolled{
-  background:rgba(0,0,0,0.99) !important;
+  background:rgba(0,0,0,0.98) !important;
   -webkit-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 }
