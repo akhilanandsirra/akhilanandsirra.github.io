@@ -258,6 +258,7 @@ body{
     color: white !important;
     -webkit-transition: .3s;
     transition: .3s;
+    font-size: 1rem;
 }
 
 .navbar .nav-item:hover a{
@@ -297,7 +298,7 @@ body{
   }
 
   .navbar.scrolled{
-  background: #000 !important;
+  background:rgba(0,0,0,0.99) !important;
   -webkit-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 }
