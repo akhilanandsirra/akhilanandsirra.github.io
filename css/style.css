@@ -300,7 +300,7 @@ body{
   .navbar.scrolled{
   background:rgba(0,0,0,0.98) !important;
   -webkit-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
   
   .navbar-toggler .icon-bar {
@@ -847,7 +847,7 @@ body{
   border-radius: 5px;
   border: 1px solid #fff;
   font-size: 1rem;
-  padding: 1% 1%;
+  padding: 6px 12px 6px 12px; 
   margin-top: 2%;
 }
 
