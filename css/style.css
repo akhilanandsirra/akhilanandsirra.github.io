@@ -899,7 +899,7 @@ footer{
   position: relative;
   background: #131313;
   padding: 40px 0 0;
-  margin-bottom: -40px; /* Put negative height of the footer here */
+  margin-bottom: -40px;
   padding-bottom: 40px;
 }
 
