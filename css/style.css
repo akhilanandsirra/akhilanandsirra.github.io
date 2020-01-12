@@ -940,3 +940,82 @@ footer{
     display: none;
   }
 }
+/*2k and 4k display*/
+@media screen and (min-width:1200px){
+  .navbar .navbar-brand{
+    font-size: 1.5rem;
+}
+
+
+.navbar .nav-item a{
+    font-size: 1.25rem;
+}
+
+.contentBox h1{
+  font-size: 3.5rem;
+}
+
+.contentBox h2{
+  font-size: 3rem;
+}
+
+.contentBox h3{
+  font-size: 2rem;
+}
+
+.contentBox .container{
+  width:75rem;
+}
+
+.about h1{
+  font-size: 3.5rem;
+}
+
+.about #aboutme h2{
+  font-size: 3rem;
+}
+
+.about #aboutme p{
+  font-size: 1.5rem;
+}
+
+.social-icons li a i {
+  font-size: 1.5em;
+}
+
+.arrow {
+  font-size: 12rem;
+}
+
+.team-member h4 {
+  font-size: 1.5rem;
+}
+
+.team-member p{
+  font-size: 1.25rem;
+}
+
+.contact .container h1{
+  font-size: 3.5rem;
+}
+
+.contact .container .name,.email,.message{
+  font-size: 1.5rem;
+}
+
+.contact .container .address-icons p {
+ font-size: 1.25rem;
+}
+
+.contact .container .msgbutton{
+  font-size: 1rem;
+}
+
+.sci li a{
+  font-size: 1.5rem;
+}
+
+.copyright{
+  font-size: 1.25rem;
+}
+}
