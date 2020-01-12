@@ -941,7 +941,7 @@ footer{
   }
 }
 /*2k and 4k display*/
-@media screen and (min-width:1200px){
+@media screen and (min-width:1991px){
   .navbar .navbar-brand{
     font-size: 1.5rem;
 }
