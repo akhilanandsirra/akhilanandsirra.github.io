@@ -768,10 +768,12 @@ body{
 .contact{
   height: 100vh;
   background-color: black;
-  text-align: center;
-  padding: 80px 0px;
+  display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center; 
+  padding: 80px 0px;
+  justify-content: center;
 }
 
 .contact .container{
