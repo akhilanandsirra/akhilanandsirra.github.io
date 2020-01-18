@@ -1,3 +1,4 @@
+
 $('.navbar-nav .nav-link').click(function () {
     $('.navbar-nav .nav-link').removeClass('active');
     $(this).addClass('active');
@@ -49,15 +50,6 @@ setInterval(function () {
     });
 }, 3000);
 
-//arrow smooth scroll
-$('a.smoth-scroll').on('click', function (e) {
-    var anchor = $(this);
-    $('html, body').stop().animate({
-        scrollTop: $(anchor.attr('href')).offset().top - 50
-    }, 250);
-    e.preventDefault();
-});
-
 //home arrow
 var arrowBounce = function () {
     var arrow = $(".arrow");
@@ -70,6 +62,17 @@ var arrowBounce = function () {
 
 setInterval(arrowBounce, 800);
 
+//arrow smooth scroll
+$('a.smoth-scroll').on('click', function (e) {
+    e.preventDefault();
+    const anchor = $(this);
+    $('html, body').stop().animate({
+        scrollTop: $(anchor.attr('href')).offset().top
+    }, 500);
+    e.preventDefault();
+});
+
+
 //href remover
 $('.nav-link').on('click', function (e) {
     e.preventDefault();
@@ -77,7 +80,7 @@ $('.nav-link').on('click', function (e) {
 
     $('html, body').animate({
         scrollTop: $(elem.attr('href')).offset().top
-    }, 250);
+    }, 500);
     e.preventDefault();
 });
 
@@ -87,6 +90,7 @@ $('.resume').on('click', function (e) {
 
     $('html, body').animate({
         scrollTop: $($(elem).attr('href')).offset().top
-    }, 250);
+    }, 500);
     e.preventDefault();
 });
+

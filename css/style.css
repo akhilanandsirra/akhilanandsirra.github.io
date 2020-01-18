@@ -1,7 +1,12 @@
 *
 {
   outline: none !important;
-  scroll-behavior: smooth;
+  /*scroll-behavior: smooth;*/
+}
+
+body{
+  background: #000;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 #site-wrapper {
@@ -9,10 +14,6 @@
   overflow: auto;
 }
 
-body{
-    background: #000;
-    font-family: 'Roboto Condensed', sans-serif;
-}
 
 #particles-js{
   position: absolute;
@@ -776,7 +777,7 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center; 
-  padding: 80px 0px;
+  padding: 2% 0%  ;
   justify-content: center;
 }
 
