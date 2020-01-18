@@ -8,7 +8,7 @@ $('.navbar-nav .nav-link').click(function () {
 $(window).on('load', function () {
     $("#status").fadeOut();
     $("#preloader").delay(250).fadeOut("slow");
-    $(".contentBox .container").delay(500).fadeIn(1000);
+    $(".contentBox .container").delay(500).fadeIn(500);
 });
 
 //navigation color
@@ -71,7 +71,6 @@ $('a.smoth-scroll').on('click', function (e) {
     }, 500);
     e.preventDefault();
 });
-
 
 //href remover
 $('.nav-link').on('click', function (e) {
