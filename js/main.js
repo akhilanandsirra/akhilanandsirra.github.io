@@ -74,22 +74,15 @@ $('a.smoth-scroll').on('click', function (e) {
 
 //href remover
 $('.nav-link').on('click', function (e) {
-    e.preventDefault();
+    //e.preventDefault();
     const elem = $(this); // save it so we can use it in the animate
 
     $('html, body').animate({
         scrollTop: $(elem.attr('href')).offset().top
     }, 500);
-    e.preventDefault();
+    return false
+    //e.preventDefault();
 });
 
-$('.resume').on('click', function (e) {
-    e.preventDefault();
-    const elem = this; // save it so we can use it in the animate
 
-    $('html, body').animate({
-        scrollTop: $($(elem).attr('href')).offset().top
-    }, 500);
-    e.preventDefault();
-});
 

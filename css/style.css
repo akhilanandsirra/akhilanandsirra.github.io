@@ -767,6 +767,17 @@ body{
 	opacity: 1;
 }
 
+.btn.with-arrow a{
+  color: #000;
+  font-size: 1rem;
+}
+
+.btn.with-arrow:hover a {
+  color: white;
+  text-decoration:none;
+}
+
+
 /*Contact Me*/
 
 .contact{
