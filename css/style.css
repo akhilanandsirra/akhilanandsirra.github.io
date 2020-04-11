@@ -777,6 +777,283 @@ body{
   text-decoration:none;
 }
 
+/*Projects*/
+
+.projects{
+  height: 100%;
+  position: relative;
+  background-color: #141414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  padding: 5% 0%  ;
+}
+
+.projects .container{
+  margin: auto;
+  padding: 0 20px;
+}
+
+.projects .project1{
+  margin-top: 8%;
+}
+
+.projects .container h1{
+  font-weight: 800;
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 4%;
+}
+
+.projects .container .marvel-device.note8{
+  height: 40rem;
+  width: 20rem;
+}
+/*media queries for note 8*/
+@media screen and (max-width:1200px){
+  .projects .container .marvel-device.note8{
+    height: 35rem;
+    width: 17.5rem;
+  }
+}
+
+@media screen and (max-width:992px){
+  .projects .container .marvel-device.note8{
+    height: 25rem;
+    width: 12.5rem;
+  }
+}
+
+.project1 h2{
+  text-align:left;
+  margin-top: 20%;
+  color: white;
+  opacity: 0.9;
+  font-size: 2.5rem;
+}
+
+.project1 p{
+  text-align:left;
+  margin-top: 2%;
+  color: grey;
+  font-size: 1.25rem;
+}
+
+.video{
+    width : 100% ;
+    height : 100% ;
+}
+
+/*project2*/
+.project2{
+  padding-top: 12.5%;
+  padding-bottom: 12.5%;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  margin-top: 10%;
+}
+.project2 h2{
+  text-align:left;
+  margin-top: 5%;
+  color: white;
+  opacity: 0.9;
+  font-size: 2.5rem;
+}
+
+.project2 p{
+  text-align:left;
+  margin-top: 2%;
+  color: grey;
+  font-size: 1.25rem;
+}
+
+.project2 .md-macbook-pro.md-glare{
+  position: relative;
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width:1199px){
+  .project2 .md-macbook-pro.md-glare{
+    position: relative;
+    font-size: 0.675rem;
+  }
+  .project2 h2{
+    text-align:left;
+    margin-top: 2%;
+    color: white;
+    opacity: 0.9;
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width:991px){
+  .project2 .md-macbook-pro.md-glare{
+    position: relative;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5rem;
+  }
+  .project2 .col-md-8{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:767px){
+  .project2 .md-macbook-pro.md-glare{
+    top:0;
+    position: relative;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    font-size: 0.575rem;
+  }
+
+  .project2{
+    height: 100%;
+    padding-top: 7%;
+    margin-bottom: 5%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .project2 .col-md-8{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .project2 h2{
+    text-align:center;
+    margin-top: 10%;
+    color: white;
+    font-size: 2.5rem;
+  }
+
+  .project2 p{
+    text-align:center;
+    margin-top: 5%;
+    color: grey;
+    font-size: 1.25rem;
+  }
+
+  .ref-icons {
+    padding-left: 0px;
+    margin-top: 10%;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width:575px){
+  .project2 .md-macbook-pro.md-glare{
+    position: relative;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    font-size: 0.4rem;
+  }
+  .project2 .col-md-8{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/*ref icons*/
+
+.ref-icons {
+  padding-left: 0px;
+  margin-top: 4%;
+  margin-bottom: 0;
+  text-align: left; 
+}
+
+.ref-icons li {
+  display: inline-block;
+  display: -moz-inline-stack;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ref-icons li a {
+  color: white;
+  display: inline-block;
+  display: -moz-inline-stack;
+  width: 50px;
+  height: 40px;
+  box-sizing: border-box;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+
+.ref-icons li a:hover {
+  color: grey;
+}
+
+.ref-icons li a i {
+  font-size: 1.3em;
+}
+
+@media screen and (max-width:767px){
+  .projects .container .marvel-device.note8{
+    margin-top:15%;
+    height: 35rem;
+    width: 17.5rem;
+  }
+
+  .projects{
+    height: 100%;
+    margin-top: 32%;
+    padding-top: 20%;
+    margin-bottom: 5%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .project1 h2{
+    text-align:center;
+    margin-top: 10%;
+    color: white;
+    font-size: 2.5rem;
+  }
+
+  .project1 p{
+    text-align:center;
+    margin-top: 5%;
+    color: grey;
+    font-size: 1.25rem;
+  }
+
+  .ref-icons {
+    padding-left: 0px;
+    margin-top: 10%;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+}
 
 /*Contact Me*/
 
@@ -919,6 +1196,8 @@ footer{
   margin-bottom: -40px;
   padding-bottom: 40px;
 }
+
+
 
 .sci{
   margin: 0;
