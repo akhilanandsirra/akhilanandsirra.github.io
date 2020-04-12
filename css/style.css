@@ -975,6 +975,18 @@ body{
     align-items: center;
     text-align: center;
   }
+
+  .projects{
+    height: 100%;
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding: 2.5% 0%  ;
+  }
+
 }
 
 /*ref icons*/
