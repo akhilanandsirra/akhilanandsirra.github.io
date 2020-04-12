@@ -1187,6 +1187,49 @@ body{
   }
 }
 
+@media screen and (max-height:574px){
+  footer{
+    visibility: hidden;
+    display: none;
+  }
+
+  .projects{
+    height: 100%;
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding: 5% 0%  ;
+    margin-top: 10%;
+  }
+  
+  .about{
+    height: 100%;
+    margin-top: 12%;
+    padding-top: 10%;
+    margin-bottom: 5%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding: 2% 0%  ;
+    justify-content: center;
+    margin-bottom: 15%;
+  }
+}
+
 /*footer*/
 
 footer{ 
