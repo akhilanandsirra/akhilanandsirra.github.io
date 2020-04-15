@@ -1343,6 +1343,22 @@ footer{
   font-size: 1.25rem;
 }
 
+.projects .container h1{
+  font-size: 3.5rem;
+}
+
+.projects .container h2{
+  font-size: 3rem;
+}
+
+.projects .container p{
+  font-size: 1.5rem;
+}
+
+.ref-icons li a i {
+  font-size: 1.5em;
+}
+
 .contact .container h1{
   font-size: 3.5rem;
 }
