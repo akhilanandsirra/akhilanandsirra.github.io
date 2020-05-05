@@ -1288,6 +1288,27 @@ footer{
     display: none;
   }
 }
+
+/*smallest device */
+
+@media screen and (max-width:375px){
+  .project2 .md-macbook-pro.md-glare{
+    font-size: 0.33rem;
+  }
+
+  .projects .container .marvel-device.note8{
+    margin-top: 15%;
+    height: 34.5rem;
+    width: 16.5rem;
+  }
+
+  .contentBox .container{
+    position: relative;
+    width:20rem;
+  }
+
+}
+
 /*2k and 4k display*/
 @media screen and (min-width:1991px){
   .navbar .navbar-brand{
