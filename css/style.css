@@ -1310,14 +1310,14 @@ footer{
 }
 
 /*2k and 4k display*/
-@media screen and (min-width:1991px){
+@media screen and (min-width:2330px){
   .navbar .navbar-brand{
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
 
 
 .navbar .nav-item a{
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 .contentBox h1{
@@ -1337,19 +1337,23 @@ footer{
 }
 
 .about h1{
-  font-size: 3.5rem;
+  font-size: 4rem;
 }
 
 .about #aboutme h2{
-  font-size: 3rem;
+  font-size: 3.25rem;
 }
 
 .about #aboutme p{
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+}
+
+.btn.with-arrow a {
+  font-size: 1.25rem;
 }
 
 .social-icons li a i {
-  font-size: 1.5em;
+  font-size: 1.6em;
 }
 
 .arrow {
@@ -1357,15 +1361,15 @@ footer{
 }
 
 .team-member h4 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 .team-member p{
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 .projects .container h1{
-  font-size: 3.5rem;
+  font-size: 4rem;
 }
 
 .projects .container h2{
@@ -1377,30 +1381,34 @@ footer{
 }
 
 .ref-icons li a i {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 .contact .container h1{
-  font-size: 3.5rem;
+  font-size: 4rem;
 }
 
 .contact .container .name,.email,.message{
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+}
+
+.contact .container .address-icons .icon1,.icon2,.icon3{
+  font-size: 1.25rem;
 }
 
 .contact .container .address-icons p {
- font-size: 1.25rem;
+ font-size: 1.4rem;
 }
 
 .contact .container .msgbutton{
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 .sci li a{
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 .copyright{
-  font-size: 1.25rem;
+  font-size: 1.3rem;
 }
 }
