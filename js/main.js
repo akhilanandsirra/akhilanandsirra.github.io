@@ -84,5 +84,57 @@ $('.nav-link').on('click', function (e) {
     //e.preventDefault();
 });
 
+//contact us validation
 
+function validateName(){
+    var name = document.getElementById('name').value;
+    if(name.length == 0){
+        alert("Name is required.");
+        return false;
+    }
+    else
+    return true;
+}
+
+function validateEmail(){
+    var email = document.getElementById('email').value;
+    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    if(email.length == 0){
+        alert("Email is required.");
+        return false;
+    }
+    else if(!re.test(email)){
+        alert("Please enter valid Email.");
+        return false;
+    }
+    else
+    return true;
+}
+
+function validateMessage(){
+    var message = document.getElementById('message').value;
+    var required = 15;
+    var left = required - message.length;
+
+    if(message.length == 0){
+        alert("Message is required.");
+        return false;
+    }
+
+    else if (left > 0) {
+        alert("Minimum 15 characters required,\n" + left + ' more to go.' );
+        return false;
+    }
+    else
+    return true;
+}
+
+$('.msgbutton').on('click', function (e) {
+    if (validateName() && validateEmail() && validateMessage()) {
+        alert("Submitting Form.");
+    }
+    else{
+        e.preventDefault();
+    }
+});
 

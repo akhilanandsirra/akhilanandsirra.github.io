@@ -336,12 +336,14 @@
                 </div>
                 <div class="clearfix"></div>
             </div>
-            <input type="text" class="name" id="name" placeholder="Name" aria-label="name">
-            <input type="email" class="email" id="email" placeholder="Email" aria-label="email">
-            <textarea rows="4" placeholder="Message" class="message" id="message" style="resize: none;" aria-label="message"></textarea>
-            <button class="msgbutton" id="send">Send Message
-                <i class="fas fa-paper-plane"></i>
-            </button>
+            <form action="https://formspree.io/akhilanand9999@gmail.com" method="POST">
+                <input type="text" name="name" class="name" id="name" placeholder="Name" aria-label="name">
+                <input type="email" name="_replyto" class="email" id="email" placeholder="Email" aria-label="email">
+                <textarea rows="4" name="message" placeholder="Message" class="message" id="message" style="resize: none;" aria-label="message"></textarea>
+                <button class="msgbutton" id="send" value="Send">Send Message
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
         </div>
     </section>
 
