@@ -131,7 +131,7 @@ function validateMessage(){
 
 $('.msgbutton').on('click', function (e) {
     if (validateName() && validateEmail() && validateMessage()) {
-        alert("Submitting Form.");
+        alert("Click OK to Continue.");
     }
     else{
         e.preventDefault();
