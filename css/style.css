@@ -1156,6 +1156,12 @@ body{
   margin-top: 2%;
 }
 
+.contact .container .msgbutton p{
+  margin-top: 3.5%;
+  margin-bottom: 3.5%;
+  font-size: 1rem;
+}
+
 .contact .container .msgbutton:hover {
   padding-right: 45px;
   background-color: black;
@@ -1287,6 +1293,11 @@ footer{
     visibility: hidden;
     display: none;
   }
+
+  .contact .container .msgbutton{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
 }
 
 /*smallest device */
@@ -1402,6 +1413,10 @@ footer{
 
 .contact .container .msgbutton{
   font-size: 1.25rem;
+}
+
+.contact .container .msgbutton p{
+  font-size: 1.4rem;
 }
 
 .sci li a{
